@@ -1,6 +1,6 @@
 Name:		fedy
-Version:	4.0.5
-Release:	1%{?dist}
+Version:	4.0.6
+Release:	0%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
 
@@ -68,10 +68,10 @@ fi
 %doc COPYING CREDITS README.md
 %exclude %{_datadir}/%{name}/plugins
 %{_datadir}/%{name}
-%{_datadir}/applications/org.ozonos.%{name}.desktop
+%{_datadir}/applications/org.folkswithhats.%{name}.desktop
 %{_datadir}/icons/hicolor/scalable/apps/%{name}.svg
 %{_datadir}/icons/hicolor/scalable/apps/%{name}-symbolic.svg
-%{_datadir}/polkit-1/actions/org.ozonos.pkexec.run-as-root.policy
+%{_datadir}/polkit-1/actions/org.folkswithhats.pkexec.run-as-root.policy
 %{_datadir}/appdata/%{name}.appdata.xml
 %{_bindir}/%{name}
 
