@@ -1,6 +1,6 @@
 Name:		fedy
 Version:	4.0.6
-Release:	0%{?dist}
+Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
 
@@ -83,7 +83,7 @@ Summary: Plugins for Fedy
 
 Requires:	rpmfusion-free-release
 Requires:	rpmfusion-nonfree-release
-Requires:	ozon-repos
+Requires:	folkswithhats-release
 
 %description plugins
 Collection of various plugins for fedy to install multimedia codecs,
