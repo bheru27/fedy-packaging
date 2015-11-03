@@ -1,5 +1,5 @@
 Name:		fedy
-Version:	4.0.6
+Version:	4.0.8
 Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
@@ -97,6 +97,10 @@ additional software etc.
 
 %changelog
 
+* Tue Nov 03 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.8
+- Release for Fedora 23. Updated packages.
+* Tue Nov 03 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.8
+- Updated packages. Now under FolksWithHats.org
 * Wed May 27 2015 Satyajit Sahoo <satyajit.happy@gmail.com> 4.0.2
 - split package into core and plugins
 * Sun May 17 2015 Satyajit Sahoo <satyajit.happy@gmail.com> 4.0.0

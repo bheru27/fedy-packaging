@@ -1,6 +1,6 @@
 Summary:	Fedy multimedia codecs
 Name:		fedy-multimedia-codecs
-Version:	1.0.0
+Version:	1.0.1
 Release:	1%{?dist}
 
 License:	GPL-3
@@ -33,7 +33,8 @@ Requires:	lame
 Requires:	libdca
 Requires:	libmad
 Requires:	libmatroska
-Requires:	x264
+Requires:   x264
+Requires:	x265
 Requires:	xvidcore
 
 BuildArch:	noarch
@@ -44,6 +45,8 @@ Multimedia codecs to enable video playback.
 %files
 
 %changelog
+* Tue Nov 03 2015 Abhinav Kulshreshtha <abhinavother@gmail.com> 
+- Added x265 
 * Tue Feb 17 2015 Satyajit Sahoo <satya164@fedoraproject.org> - 0.0-1
 - Initial package for Fedora
 

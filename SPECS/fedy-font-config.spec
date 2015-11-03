@@ -1,6 +1,6 @@
 Summary:	Fedy font configuration
 Name:     fedy-font-config
-Version:	1.0.0
+Version:	1.0.1
 Release:	1%{?dist}
 
 License:	GPL-3

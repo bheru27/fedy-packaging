@@ -1,5 +1,5 @@
 Name:		folkswithhats-release
-Version:	1.0.0
+Version:	1.0.1
 Release:	1%{?dist}
 Summary:	Repository for Fedy.
 Group:		System Environment/Base
