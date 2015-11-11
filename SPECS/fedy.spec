@@ -1,5 +1,5 @@
 Name:		fedy
-Version:	4.0.8
+Version:	4.0.9
 Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
@@ -96,7 +96,8 @@ additional software etc.
 
 
 %changelog
-
+* Wed Nov 11 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.9
+- Update Packages.
 * Tue Nov 03 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.8
 - Release for Fedora 23. Updated packages.
 * Tue Nov 03 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.8
