@@ -1,5 +1,5 @@
 Name:		fedy
-Version:	4.0.9
+Version:	4.1.0
 Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
@@ -96,6 +96,8 @@ additional software etc.
 
 
 %changelog
+* Sun Jan 03 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.1.0
+- Update packages. Remove support for F21.
 * Wed Nov 11 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.9
 - Update Packages.
 * Tue Nov 03 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.8
