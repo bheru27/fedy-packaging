@@ -1,5 +1,5 @@
 Name:		fedy
-Version:	4.1.0
+Version:	4.1.2
 Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
@@ -45,6 +45,8 @@ Requires:	tar
 Requires:	wget
 Requires:	dnf
 Requires:	dnf-plugins-core
+Requires:   libnotify
+Requires:   libnotify-devel
 
 %description core
 Core files for Fedy which can load and display plugins.
@@ -96,6 +98,8 @@ additional software etc.
 
 
 %changelog
+* Sun Feb 21 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.1.2
+- Fix Several issues, Update plugins.
 * Sun Jan 03 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.1.0
 - Update packages. Remove support for F21.
 * Wed Nov 11 2015 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.0.9
