@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fedora_vers=(22 23)
+fedora_vers=(22 23 24)
 top_dir=$(pwd)
 
 if [[ "$1" == "--repo" ]]; then

@@ -1,5 +1,5 @@
 Name:		fedy
-Version:	4.1.2
+Version:	4.2.1
 Release:	1%{?dist}
 Summary:	Software, codec installs and system tweaks
 Group:		System/Management
@@ -98,6 +98,8 @@ additional software etc.
 
 
 %changelog
+* Thu Jun 23 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.2.1
+- Release for F24
 * Sun Feb 21 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.1.2
 - Fix Several issues, Update plugins.
 * Sun Jan 03 2016 Abhinav Kulshreshtha <AbhinavOther@gmail.com> 4.1.0
